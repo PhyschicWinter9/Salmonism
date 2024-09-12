@@ -1,0 +1,42 @@
+RewriteEngine on
+
+
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 193.35.18.113
+deny from 34.83.177.192
+deny from 176.58.106.79
+deny from 213.136.71.218
+deny from 20.4.48.76
+deny from 49.228.111.116
+deny from 198.54.135.52
+deny from 198.54.135.148
+deny from 198.54.135.116
+deny from 185.156.46.151
+deny from 198.54.135.84
+deny from 3.75.102.200
+deny from 37.120.215.243
+deny from 143.244.47.74
+deny from 45.134.142.228
+deny from 198.54.130.91
+deny from 168.33.178.237
+deny from 162.33.178.237
+deny from 18.156.35.96
+deny from 193.35.18.142
+deny from 45.142.114.232
+deny from 3.77.151.209
+deny from 3.120.26.245
+deny from 3.67.98.252
+deny from 18.192.24.55
+deny from 109.123.240.84
+deny from 147.28.173.143
+deny from 94.103.124.169
+deny from 104.219.232.122
