@@ -1,5 +1,3 @@
 # **Salmonism**
 
-**INFO**
-
-##### พวกเราทีม Salmonism คือทีมนักศึกษาจากมหาวิทยาลัยสงขลานครินทร์ วิทยาเขตสุราษฎร์ธานี สาขาวิชาเทคโนโลยีสารสนเทศ คณะวิทยาศาสตร์และเทคโนโลยีอุสาหกรรม
+![Logo](https://github.com/PhyschicWinter9/Salmonism/blob/main/assets/img/salmonism4x.png?raw=true)
